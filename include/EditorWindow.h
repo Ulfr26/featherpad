@@ -1,23 +1,25 @@
-
 #ifndef EDITOR_WINDOW_H 
 #define EDITOR_WINDOW_H
 
-#include "gtkmm.h"
+#include <gtkmm.h>
 #include <string>
 
-using namespace std;
-
-class EditorWindow 
-{
-    private:
-
-
-    protected:
-        
-
+class EditorWindow : public Gtk::Window {
     public:
         EditorWindow();
-        EditorWindow(string filename);
+        EditorWindow(std::string filename);
+        virtual ~EditorWindow();
+    
+    protected:
+        // Member widgets
+        Gtk::Grid grid;
+        Gtk::TextView entry;
+
+        /* Action groups (to be expanded)
+        Gio::ActionGroup act_file;
+        Gio::ActionGroup act_edit;
+        Gio::ActionGroup act_search;
+        */
 };
 
 #endif

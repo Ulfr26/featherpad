@@ -1,6 +1,4 @@
-Featherpad is a hobbyist programmer's text editor for hobbyist programmers.
-===========================================================================
+Featherpad is a light and simple text editor for programmers
+============================================================
 
-Features:
- * Text editing! Oh MAN. This is high tech stuff here.
- * Syntax Highlighting for Plain Text. Aw yeah.
+But it's not done. At all. It's pretty bad, go use vim, or vscode, or N++, or even Atom if you're THAT desperate.
